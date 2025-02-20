@@ -1,0 +1,26 @@
+{
+  "name": "OrderProcessingService Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "orderprocessingservice",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+      "vscode": {
+          "extensions": [
+              "ms-dotnettools.csharp",
+              "ms-azuretools.vscode-azurefunctions",
+              "ms-azuretools.vscode-docker",
+              "eamodio.gitlens",
+              "GitHub.copilot",
+              "esbenp.prettier-vscode",
+              "dbaeumer.vscode-eslint",
+              "ms-azuretools.vscode-bicep",
+              "ms-dotnettools.csdevkit"
+          ],
+          "settings": {
+              "terminal.integrated.shell.linux": "/bin/bash",
+              "github.copilot.chat.enable": false
+          }
+      }
+  },
+  "remoteUser": "vscode"
+}
